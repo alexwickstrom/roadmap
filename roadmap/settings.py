@@ -29,8 +29,8 @@ SECRET_KEY = os.environ["SECRET_KEY"]
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
-
+STATIC_URL = 'homepage/static/'
+STATIC_ROOT = STATIC_URL
 # Application definition
 
 INSTALLED_APPS = [
