@@ -8,6 +8,7 @@ django = "*"
 black = "==19.10b0"
 python-dotenv = "*"
 django-heroku = "*"
+gunicorn = "*"
 
 [dev-packages]
 
