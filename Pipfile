@@ -7,6 +7,7 @@ name = "pypi"
 django = "*"
 black = "==19.10b0"
 python-dotenv = "*"
+django-heroku = "*"
 
 [dev-packages]
 
