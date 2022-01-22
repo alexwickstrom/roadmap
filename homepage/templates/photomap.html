@@ -1,33 +1,101 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="container">
-    <img src="../static/backend.png" usemap="#image-map">
+    <div class="container">
+        <img src="../static/backend.png" usemap="#image-map">
 
-    <map name="image-map">
-        <area target="_blank" alt="InternetWork" title="InternetWork" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work" coords="369,257,76,217" shape="rect">
-        <area target="_blank" alt="HTTP" title="HTTP" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview" coords="75,267,370,303" shape="rect">
-        <area target="_blank" alt="Internet" title="Internet" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works" coords="472,265,739,313" shape="0">
-        <area target="_blank" alt="Browsers" title="Browsers" href="https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work" coords="369,349,75,313" shape="0">
-        <area target="_blank" alt="HTML" title="HTML" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" coords="372,417,232,379,751,411,740,449" shape="rect">
-        <area target="_blank" alt="CSS" title="CSS" href="https://web.dev/learn/css/" coords="870,359,1007,396" shape="0">
-        <area target="_blank" alt="JS" title="JS" href="https://learnjavascript.online/app.html?id=1435" coords="867,411,1006,445" shape="0">
-        <area target="_blank" alt="IO" title="IO" href="https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/13_IOSystems.html" coords="868,569,1133,604" shape="0">
-        <area target="_blank" alt="MySQL" title="MySQL" href="https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/example-maximum-row.html" coords="122,1081,311,1117" shape="0">
-        <area target="_blank" alt="ACID" title="ACID" href="https://www.keboola.com/blog/acid-transactions" coords="407,1127,575,1293" shape="0">
-        <area target="_blank" alt="API" title="API" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction" coords="964,1385,1147,1492" shape="0">
-        <area target="_blank" alt="uservices" title="uservices" href="https://microservices.io/" coords="837,2068,1079,2098" shape="0">
-        <area target="_blank" alt="SOA" title="SOA" href="https://www.geeksforgeeks.org/service-oriented-architecture/" coords="840,2112,1077,2140" shape="0">
-        <area target="_blank" alt="messaging" title="messaging" href="https://livebook.manning.com/book/rabbitmq-in-action/chapter-2/8" coords="577,2259,800,2303" shape="0">
-        <area target="_blank" alt="caching" title="caching" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching" coords="384,1652,537,1694" shape="0">
-        <area target="_blank" alt="MySQL" title="MySQL" href="https://dev.mysql.com/doc/refman/8.0/en/getting-information.html" coords="122,1082,309,1118" shape="rect">
-        <area target="" alt="git" title="git" href="https://learngitbranching.js.org/" coords="1059,839,1183,882" shape="rect">
-        <area target="_blank" alt="docker" title="docker" href="https://docker-curriculum.com/" coords="49,2280,189,2312" shape="rect">
-        <area target="_blank" alt="hacking" title="hacking" href="https://tryhackme.com/" coords="619,1651,856,1700" shape="rect">
-        <area target="" alt="GOF" title="GOF" href="https://python-patterns.guide/" coords="35,1911,292,1944" shape="rect">
-        <area target="" alt="architectures" title="architectures" href="https://www.redhat.com/architect/5-essential-patterns-software-architecture" coords="767,1955,1078,1998" shape="rect">
-        <area target="" alt="scalability" title="scalability" href="http://highscalability.com/all-time-favorites/" coords="451,2677,764,2798" shape="rect">
-        <area target="" alt="websockets" title="websockets" href="https://www.html5rocks.com/en/tutorials/websockets/basics/" coords="428,2561,583,2605" shape="rect">
-</map>
-    </map>
-</div>
+        <map name="image-map">
+            /* First node: Internet */
+            <area target="_blank"
+                  alt="Internet"
+                  title="Internet"
+                  href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works"
+                  coords="472,265,739,313"
+                  shape="0">
+            /* Left Side */
+            // How does the internet work?
+            <area target="_blank"
+                  alt="Cats and Tubes"
+                  title="InternetWork"
+                  href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work"
+                  coords="369,257,76,217"
+                  shape="rect">
+            // What is HTTP?
+            <area target="_blank"
+                  alt="HTTP Protocol"
+                  title="HTTP"
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+                  coords="75,267,370,303"
+                  shape="rect">
+            // Browsers and how they work?
+            <area target="_blank"
+                  alt="Browsers"
+                  title="Browsers"
+                  href="https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work"
+                  coords="369,349,75,313"
+                  shape="0">
+            // HTML
+            <area target="_blank"
+                  alt="HTML"
+                  title="HTML"
+                  href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started"
+                  coords="372,417,232,379,751,411,740,449"
+                  shape="rect">
+            <area target="_blank"
+                  alt="CSS"
+                  title="CSS"
+                  href="https://web.dev/learn/css/"
+                  coords="870,359,1007,396"
+                  shape="0">
+            <area target="_blank"
+                  alt="JS"
+                  title="JS"
+                  href="https://learnjavascript.online/app.html?id=1435"
+                  coords="867,411,1006,445"
+                  shape="0">
+            <area target="_blank"
+                  alt="Input / Output"
+                  title="IO"
+                  href="https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/13_IOSystems.html"
+                  coords="868,569,1133,604"
+                  shape="0">
+            <area target="_blank" alt="MySQL" title="MySQL"
+                  href="https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/example-maximum-row.html"
+                  coords="122,1081,311,1117" shape="0">
+            <area target="_blank" alt="ACID" title="ACID" href="https://www.keboola.com/blog/acid-transactions"
+                  coords="407,1127,575,1293" shape="0">
+            <area target="_blank" alt="API" title="API"
+                  href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction"
+                  coords="964,1385,1147,1492" shape="0">
+            <area target="_blank" alt="uservices" title="uservices" href="https://microservices.io/"
+                  coords="837,2068,1079,2098" shape="0">
+            <area target="_blank" alt="SOA" title="SOA"
+                  href="https://www.geeksforgeeks.org/service-oriented-architecture/" coords="840,2112,1077,2140"
+                  shape="0">
+            <area target="_blank" alt="messaging" title="messaging"
+                  href="https://livebook.manning.com/book/rabbitmq-in-action/chapter-2/8" coords="577,2259,800,2303"
+                  shape="0">
+            <area target="_blank" alt="caching" title="caching"
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching" coords="384,1652,537,1694" shape="0">
+            <area target="_blank" alt="MySQL" title="MySQL"
+                  href="https://dev.mysql.com/doc/refman/8.0/en/getting-information.html" coords="122,1082,309,1118"
+                  shape="rect">
+            <area target="" alt="git" title="git" href="https://learngitbranching.js.org/" coords="1059,839,1183,882"
+                  shape="rect">
+            <area target="_blank" alt="docker" title="docker" href="https://docker-curriculum.com/"
+                  coords="49,2280,189,2312" shape="rect">
+            <area target="_blank" alt="hacking" title="hacking" href="https://tryhackme.com/" coords="619,1651,856,1700"
+                  shape="rect">
+            <area target="" alt="GOF" title="GOF" href="https://python-patterns.guide/" coords="35,1911,292,1944"
+                  shape="rect">
+            <area target="" alt="architectures" title="architectures"
+                  href="https://www.redhat.com/architect/5-essential-patterns-software-architecture"
+                  coords="767,1955,1078,1998" shape="rect">
+            <area target="" alt="scalability" title="scalability" href="http://highscalability.com/all-time-favorites/"
+                  coords="451,2677,764,2798" shape="rect">
+            <area target="" alt="websockets" title="websockets"
+                  href="https://www.html5rocks.com/en/tutorials/websockets/basics/" coords="428,2561,583,2605"
+                  shape="rect">
+        </map>
+        </map>
+    </div>
 {% endblock content %}
